@@ -8,8 +8,9 @@ import { getRandomNumber } from "./promises.js";
 
 */
 
-const task = () => {
-
+const task = async () => {
+const number = await getRandomNumber()
+console.log(number)
 }
 
 task()

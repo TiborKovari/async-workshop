@@ -23,6 +23,7 @@ Questions:
 */
 
 const task = () => {
+  sleep(2000).then(() => { console.log("done")})
   // Your code goes here
 
 }

@@ -13,6 +13,9 @@ import { sleep } from "./promises.js";
 */
 
 const task = () => {
+sleep(2000)
+.then(() => {console.log("step1"); 
+sleep(2000).then(() => {console.log("step2")}))
 
 }
 

@@ -13,8 +13,11 @@ import { sleep } from "./promises.js"
     - Will the other parts of the code will run while the code is waiting here?
 */
 
-const task = () => {
 
+
+const task = async () => {
+await sleep(2000);
+console.log("done");  
 }
 
 task()

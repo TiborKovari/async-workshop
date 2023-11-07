@@ -19,7 +19,8 @@ import { getRandomNumber } from "./promises.js";
 */
 
 const task = () => {
-
+  const randNr = getRandomNumber();
+randNr.then((number) => console.log(number))
 }
 
 task()

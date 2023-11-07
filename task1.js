@@ -11,8 +11,12 @@ Questions:
     setTimeout call, what will be executed first, the Done console log or this one?
 */
 
+function getDone() {console.log("done")};
+
 const task = () => {
+  setTimeout(getDone, 2000)
   // Your code goes here
+  return
 }
-í
+
 task()
